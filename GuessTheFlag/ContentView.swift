@@ -90,7 +90,7 @@ struct ContentView: View {
         {
             Button("Continue", action: askQuestion)
         } message: {
-            Text("Your score is \(score) now")
+            Text("Your score is \(score) now.")
         }
     }
     func flagTapped(_ number : Int)
